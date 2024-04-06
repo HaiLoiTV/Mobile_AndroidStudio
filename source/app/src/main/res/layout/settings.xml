@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity"
+    android:background="#C9EEFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="Cài đặt và tùy chỉnh" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/baseline_person_35"
+            android:text="tài khoản"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:background="@drawable/color_background"
+        android:drawableLeft="@drawable/baseline_crop_square_35"
+        android:text="Giao diện"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:background="@drawable/color_background"
+        android:drawableLeft="@drawable/baseline_g_translate_35"
+        android:text="Ngôn ngữ"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:background="@drawable/color_background"
+        android:drawableLeft="@drawable/baseline_calendar_month_35"
+        android:text="Ngày và giờ"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:background="@drawable/color_background"
+        android:drawableLeft="@drawable/baseline_notifications_active_35"
+        android:text="Cài đặt thông báo"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:background="@drawable/color_background"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Về Do it"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/twitter" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/insta" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/linkedin" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Đề xuất"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:textSize="30dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/baseline_thumb_up_off_alt_35"/>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Đánh giá"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:textSize="30dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/baseline_star_35"  />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:background="@drawable/color_background"
+        android:drawableLeft="@drawable/baseline_gpp_good_35"
+        android:text="Chính sách bảo mật"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+         />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:background="@drawable/color_background"
+        android:drawableLeft="@drawable/baseline_bug_report_35"
+        android:text="Góp ý và báo lỗi"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:background="@drawable/color_background"
+        android:drawableLeft="@drawable/baseline_directions_35"
+        android:text="Hướng dẫn người dùng"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black" />
+
+</LinearLayout>

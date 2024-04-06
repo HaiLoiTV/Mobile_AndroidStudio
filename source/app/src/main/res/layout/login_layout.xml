@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_vertical"
+    android:background="#97DEFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:paddingTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:textColor="#AA77FF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rectangular_frame"
+            android:ems="10"
+            android:hint="Email"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:id="@+id/pass_login"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectangular_frame"
+            android:ems="10"
+            android:hint="Mật khẩu"
+            android:paddingStart="10dp" />
+
+        <TextView
+            android:paddingTop="25dp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="20dp"
+            android:textColor="#3B9AE1"
+            android:text="Quên mật khẩu?"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+
+            android:backgroundTint="#2A98F8"
+            android:text="Đăng nhập"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Bạn mới sử dụng Do it?" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#2A98F8"
+
+                android:paddingLeft="0dp"
+                android:text="Tạo tạo khoản"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textColorLink="#3B9AE1"
+                 />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
